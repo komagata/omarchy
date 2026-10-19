@@ -212,14 +212,14 @@
   "trigger.appearance.window-corners.rounded": {
     "label": "丸い角"
   },
-  "trigger.appearance.window-borders": {
-    "label": "ウィンドウの枠線"
+  "trigger.appearance.window-focus": {
+    "label": "ウィンドウのフォーカス"
   },
-  "trigger.appearance.window-borders.theme": {
+  "trigger.appearance.window-focus.theme": {
     "label": "テーマの枠線"
   },
-  "trigger.appearance.window-borders.none": {
-    "label": "枠線なし"
+  "trigger.appearance.window-focus.dim": {
+    "label": "非アクティブを暗くする"
   },
   "trigger.appearance.window-transparency": {
     "label": "ウィンドウ不透明度"
