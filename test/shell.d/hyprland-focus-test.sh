@@ -197,17 +197,17 @@ for _, baseline_dim in ipairs({ false, true }) do
   check(7, 8, 9, 10, baseline_dim, 0.65)
   save("focus-dim")
   reload(baseline_dim, 7, 0.65)
-  check(0, 8, 9, 10, true, 0.30)
+  check(0, 8, 9, 10, true, 0.20)
   -- The saved choice also overrides a changed theme on subsequent reloads.
   reload(baseline_dim, 11, 0.80)
-  check(0, 8, 9, 10, true, 0.30)
+  check(0, 8, 9, 10, true, 0.20)
   assert(os.remove(dir .. "/focus-dim.lua"))
   reload(baseline_dim, 11, 0.80)
   check(11, 8, 9, 10, baseline_dim, 0.80)
   save("window-no-gaps")
   save("focus-dim")
   reload(baseline_dim, 7, 0.65)
-  check(0, 0, 0, 0, true, 0.30)
+  check(0, 0, 0, 0, true, 0.20)
   assert(os.remove(dir .. "/focus-dim.lua"))
   reload(baseline_dim, 7, 0.65)
   check(0, 0, 0, 0, baseline_dim, 0.65)
@@ -221,7 +221,7 @@ hl.config = function(config)
   calls = calls + 1
   local expected = {
     general = { border_size = 0 },
-    decoration = { dim_inactive = true, dim_strength = 0.30 },
+    decoration = { dim_inactive = true, dim_strength = 0.20 },
   }
   for section, values in pairs(config) do
     assert(expected[section], "unexpected section: " .. section)

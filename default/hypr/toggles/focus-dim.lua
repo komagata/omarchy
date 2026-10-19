@@ -6,6 +6,6 @@ hl.config({
 
   decoration = {
     dim_inactive = true,
-    dim_strength = 0.30,
+    dim_strength = 0.20,
   },
 })
