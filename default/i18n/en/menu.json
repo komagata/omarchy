@@ -212,6 +212,15 @@
   "trigger.appearance.window-corners.rounded": {
     "label": "Rounded Corners"
   },
+  "trigger.appearance.window-borders": {
+    "label": "Window Borders"
+  },
+  "trigger.appearance.window-borders.theme": {
+    "label": "Theme Borders"
+  },
+  "trigger.appearance.window-borders.none": {
+    "label": "No Borders"
+  },
   "trigger.appearance.window-transparency": {
     "label": "Window Opacity"
   },

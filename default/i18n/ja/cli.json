@@ -41,6 +41,8 @@
   "battlenet.removeProton": "umu がダウンロードした GE-Proton ランタイムも削除しますか？",
   "battlenet.removeUmu": "umu-launcher も削除しますか？このコマンドでのみ使用されます。",
   "battlenet.wipePartial": "不完全なプレフィックスを削除して最初からやり直しますか？",
+  "borders.followTheme": "枠線はテーマに従う",
+  "borders.none": "すべてのテーマで枠線なし",
   "branding.pickAboutImage": "About 用の PNG または SVG を選択",
   "branding.pickScreensaverImage": "スクリーンセーバー用の PNG または SVG を選択",
   "capture.audioNotAdded": "%1 の音声をこの録画に追加できませんでした。",

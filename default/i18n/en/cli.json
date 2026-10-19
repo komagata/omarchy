@@ -41,6 +41,8 @@
   "battlenet.removeProton": "Also remove GE-Proton runtimes downloaded by umu?",
   "battlenet.removeUmu": "Also remove umu-launcher? It's only used by this command.",
   "battlenet.wipePartial": "Wipe the partial prefix and start fresh?",
+  "borders.followTheme": "Borders follow the theme",
+  "borders.none": "No borders for all themes",
   "branding.pickAboutImage": "Pick PNG or SVG for About",
   "branding.pickScreensaverImage": "Pick PNG or SVG for screensaver",
   "capture.audioNotAdded": "The %1 audio could not be added to this recording.",
